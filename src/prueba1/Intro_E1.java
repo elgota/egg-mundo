@@ -25,6 +25,7 @@ public class Intro_E1 {
         int numeUno;
         int numeDos;
         int suma;
+        String saludo = "Para checkear Git";
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingresá 2 números enteros: ");
         numeUno = leer.nextInt();
@@ -33,7 +34,7 @@ public class Intro_E1 {
         suma = numeUno + numeDos;
         System.out.println("El resultado es " + suma);
         
-        
+        System.out.println(saludo);
     }
     
 }
